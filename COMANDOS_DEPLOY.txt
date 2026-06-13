@@ -1,0 +1,43 @@
+═══════════════════════════════════════════════════════
+  O MISTÉRIO DE LANIS — COMANDOS GIT + DEPLOY STREAMLIT
+═══════════════════════════════════════════════════════
+
+── 1. CRIAR REPOSITÓRIO NO GITHUB ──────────────────────
+
+  Opção A — via GitHub CLI (gh):
+    gh repo create mystery_of_lanis --public --source=. --remote=origin --push
+
+  Opção B — manual:
+    1. Acesse https://github.com/new
+    2. Nome: mystery_of_lanis
+    3. Deixe vazio (sem README, .gitignore etc.)
+    4. Copie a URL do repositório criado (ex: https://github.com/SEU_USER/mystery_of_lanis.git)
+
+── 2. CONFIGURAR REMOTE E ENVIAR (só se usar Opção B) ──
+
+    git remote add origin https://github.com/SEU_USER/mystery_of_lanis.git
+    git branch -M main
+    git push -u origin main
+
+── 3. DEPLOY NO STREAMLIT COMMUNITY CLOUD ──────────────
+
+  1. Acesse https://share.streamlit.io
+  2. Faça login com sua conta GitHub
+  3. Clique em "New app"
+  4. Selecione o repositório: mystery_of_lanis
+  5. Branch: main
+  6. Main file path: app.py
+  7. Clique em "Deploy"
+
+  O app ficará disponível em:
+    https://SEU_USER-mystery-of-lanis-app-HASH.streamlit.app
+
+── 4. ATUALIZAR O APP DEPOIS (futuras alterações) ───────
+
+    git add .
+    git commit -m "descrição da alteração"
+    git push
+
+  O Streamlit Cloud detecta o push e redeploya automaticamente.
+
+═══════════════════════════════════════════════════════
