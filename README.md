@@ -1,6 +1,7 @@
 # O Mistério de Lanis: O Bosque dos Axiomas
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]([https://mystery-of-lanis-wnju4plkkviw3c2deybjua.streamlit.app/])
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](mystery-of-lanis-wnju4plkkviw3c2deybjua.streamlit.app)
+
 
 Ficção interativa de treino em **interpretação de texto** e **dedução lógica**, construída com Python + Streamlit.
 
