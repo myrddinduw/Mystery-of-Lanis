@@ -51,11 +51,23 @@ CALIBRAÇÃO CONCLUÍDA — ACESSO AO ARQUIVO DE CAMPO LIBERADO
 > o terminal continua esperando apenas suas deduções.\
 """,
     1: """\
-DIÁRIO DE CAMPO — ARQUIVOS ESGOTADOS
+DIÁRIO DE CAMPO — ARQUIVOS VERIFICADOS
 
-> todos os registros acessíveis do Diário de Campo foram verificados.
-> acesso ao Relatório Técnico classificado pendente de liberação futura.
-> sessão encerrada.\
+> registros de campo confirmados.
+> desbloqueando Relatório Técnico classificado — Ciclo 47...
+> aviso: os documentos que se seguem são relatórios formais da equipe.
+> a linguagem é densa. o método, prolixo.
+> a regra que importa está enterrada no texto.
+> o terminal continua esperando apenas suas deduções.\
+""",
+    2: """\
+RELATÓRIO TÉCNICO — ARQUIVOS VERIFICADOS
+
+> dados operacionais extraídos e confirmados.
+> desbloqueando Arquivos do Debate Acadêmico — Ciclo 47...
+> aviso: os documentos que se seguem não concordam integralmente entre si.
+> uma regra geral em um. uma exceção crítica em outro.
+> cruze as fontes antes de concluir.\
 """,
 }
 
@@ -81,11 +93,16 @@ Que continue assim."
 
 > transmissão encerrada.
 > localização de R. Vello: Setor Delta — STATUS DESCONHECIDO.
+> refrigeração de Delta: ATIVA — operação autônoma contínua.
+> temperatura: 8,4°C — ESTÁVEL.
 > o Setor Delta permanece selado.
 
 Lanis fecha o terminal.
 
-Ela sabe o que encontrou.
-E sabe que Rafaela Vello tomou a única decisão
-que os axiomas do bosque jamais poderiam calcular.\
+Ela sabe agora por que o frio não bastava.
+Ela sabe o que Vello descobriu sobre o pH do canteiro 12.
+E sabe que Rafaela Vello não apenas selou a porta —
+ela garantiu que o frio não pararia nunca.
+
+A única decisão que os axiomas do bosque jamais poderiam calcular.\
 """

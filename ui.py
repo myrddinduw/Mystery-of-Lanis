@@ -26,7 +26,7 @@ _CSS = """
     padding-bottom: 0.6rem;
     margin-bottom: 1.25rem;
     color: #4dff91;
-    font-size: 0.7rem;
+    font-size: 0.85rem;
     letter-spacing: 0.18em;
     text-transform: uppercase;
     font-family: 'JetBrains Mono', 'Courier New', monospace;
@@ -34,16 +34,16 @@ _CSS = """
 .terminal-header .setor-status {
     color: #2a8a50;
     margin-top: 0.2rem;
-    font-size: 0.65rem;
+    font-size: 0.78rem;
     letter-spacing: 0.1em;
 }
 
 /* ── linhas de sistema ── */
 .sistema {
     color: #2a7a45;
-    font-size: 0.78rem;
+    font-size: 1rem;
     margin: 0.2rem 0;
-    line-height: 1.6;
+    line-height: 1.7;
     font-family: 'JetBrains Mono', 'Courier New', monospace;
     white-space: pre-wrap;
 }
@@ -87,7 +87,7 @@ _CSS = """
 /* ── timbre do documento ── */
 .doc-timbre {
     font-family: Georgia, serif;
-    font-size: 0.62rem;
+    font-size: 0.75rem;
     letter-spacing: 0.13em;
     text-transform: uppercase;
     color: #5c4025;
@@ -98,29 +98,30 @@ _CSS = """
     position: relative;
 }
 .doc-titulo {
-    font-size: 0.78rem;
+    font-size: 0.9rem;
     font-weight: bold;
     margin-bottom: 0.15rem;
     color: #3a2a14;
 }
 .doc-meta {
-    font-size: 0.62rem;
+    font-size: 0.75rem;
     color: #6b5035;
 }
 
 /* ── corpo do documento ── */
 .doc-corpo {
-    font-size: 0.9rem;
+    font-size: 1.05rem;
+    line-height: 1.8;
     position: relative;
 }
 
 /* ── caixa de desafio ── */
 .desafio-label {
     font-family: 'JetBrains Mono', 'Courier New', monospace;
-    font-size: 0.78rem;
+    font-size: 1rem;
     color: #7ab89a;
     margin: 1.25rem 0 0.5rem;
-    line-height: 1.6;
+    line-height: 1.7;
 }
 .desafio-label::before {
     content: '> ';
@@ -134,9 +135,9 @@ _CSS = """
     padding: 0.9rem 1.1rem;
     margin: 1rem 0;
     font-family: 'JetBrains Mono', 'Courier New', monospace;
-    font-size: 0.78rem;
+    font-size: 1rem;
     color: #c8a96a;
-    line-height: 1.7;
+    line-height: 1.75;
     white-space: pre-wrap;
 }
 .feedback-box::before {
@@ -144,7 +145,7 @@ _CSS = """
     color: #6a5020;
     display: block;
     margin-bottom: 0.4rem;
-    font-size: 0.68rem;
+    font-size: 0.78rem;
     letter-spacing: 0.1em;
 }
 
@@ -154,10 +155,10 @@ _CSS = """
     padding: 0.6rem 1rem;
     margin: 1rem 0;
     color: #3a8a55;
-    font-size: 0.75rem;
+    font-size: 0.95rem;
     font-family: 'JetBrains Mono', 'Courier New', monospace;
     white-space: pre-wrap;
-    line-height: 1.7;
+    line-height: 1.75;
 }
 
 /* ── tela de acerto ── */
@@ -167,23 +168,23 @@ _CSS = """
     padding: 0.9rem 1.1rem;
     margin: 1rem 0;
     font-family: 'JetBrains Mono', 'Courier New', monospace;
-    font-size: 0.78rem;
+    font-size: 1rem;
     color: #4dff91;
-    line-height: 1.7;
+    line-height: 1.75;
 }
 .acerto-box::before {
     content: '> DEDUÇÃO VALIDADA // ';
     color: #2a8a50;
     display: block;
     margin-bottom: 0.4rem;
-    font-size: 0.68rem;
+    font-size: 0.78rem;
     letter-spacing: 0.1em;
 }
 
 /* ── tela de boot e fim ── */
 .boot-text {
     font-family: 'JetBrains Mono', 'Courier New', monospace;
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: #7ab89a;
     white-space: pre-wrap;
     line-height: 1.9;
@@ -191,7 +192,7 @@ _CSS = """
 }
 .fim-text {
     font-family: 'JetBrains Mono', 'Courier New', monospace;
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: #7ab89a;
     white-space: pre-wrap;
     line-height: 1.9;
@@ -208,7 +209,7 @@ _CSS = """
     border: 1px solid #2a8a50;
     color: #4dff91;
     font-family: 'JetBrains Mono', 'Courier New', monospace;
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     letter-spacing: 0.12em;
     text-transform: uppercase;
     padding: 0.5rem 1.1rem;

@@ -20,6 +20,9 @@ def init_state() -> None:
         if k not in st.session_state:
             st.session_state[k] = v
 
+    from persistence import retomar_se_possivel
+    retomar_se_possivel()
+
 
 def confirmar_caderno() -> None:
     st.session_state.caderno_confirmado = True
